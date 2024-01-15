@@ -1,0 +1,52 @@
+{
+  "homepage": "https://yinkiatho.github.io/",
+  "name": "Yin Kiat",
+  "version": "1.0",
+  "private": true,
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3",
+    "marked": "^4.2.12",
+    "node-sass": "^8.0.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0",
+    "react-dom": "^17.0.2",
+    "react-markdown": "^8.0.5",
+    "react-pdf": "^5.7.2",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-spinners": "^0.13.8",
+    "react-toggle-dark-mode": "^1.1.1",
+    "react-vertical-timeline-component": "^3.6.0",
+    "sass": "^1.57.1",
+    "serve": "^14.2.0",
+    "typed.js": "^2.0.12"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@iconify/react": "^4.0.1",
+    "gh-pages": "^6.1.0"
+  }
+}

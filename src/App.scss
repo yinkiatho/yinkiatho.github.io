@@ -1,0 +1,479 @@
+/*--------------------------------------------------------------
+Varibles
+--------------------------------------------------------------*/
+
+// // constant colors
+// $strong-color: #0563bb;
+// $off-strong-color: #0a6ecb;
+
+// // light mode
+// $bg-color:           rgb(255, 255, 255);
+// $off-bg-color:       #e9e9e9;
+// $light-color:        #45505b;
+// $dark-shadow:        rgba(0, 0, 0, 0.2);
+// $hero-blur:          rgba(255, 255, 255, 0.8);
+// $text-color:         #000000;
+
+// // dark mode
+// $bg-color-dark:      rgb(33, 33, 33);
+// $off-bg-color-dark:  rgb(66, 66, 66);
+// $light-color-dark:   #fefefe;
+// $dark-shadow-dark:   rgba(255, 255, 255, 0.2);
+// $hero-blur-dark:     rgba(33, 33, 33, 0.6);
+// $text-color-dark:    #fefefe;
+
+// colors are change in the data.json file
+
+/*--------------------------------------------------------------
+General Section
+--------------------------------------------------------------*/
+
+
+
+#root {
+  background-color: var(--bg-color);
+}
+
+
+.accordion {
+  box-shadow: 0 4px 8px var(--dark-shadow);
+}
+
+.accordion-body {
+  background-color: var(--off-bg-color);
+  color: var(--text-color);
+}
+
+.darkmodeswitch {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.react-pdf__Page__textContent {
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+}
+
+#icon_list {
+  background-color: var(--off-bg-color);
+  color: var(--text-color);
+  font-size: 3.5rem;
+}
+
+#latest_research {
+  background-color: var(--off-bg-color);
+  color: var(--text-color);
+
+  .col-4 .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .col-8 .card {
+    border-width: 0;
+
+    .card-body {
+      background-color: var(--off-bg-color);
+      color: var(--text-color);
+    }
+  }
+}
+
+// make scroll_to_top id only visible on mobile and when you scroll down
+#scroll_to_top {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  #scroll_to_top {
+    background-color: transparent;
+    color: var(--text-color);
+    border-color: var(--dark-shadow);
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 4vw;
+    font-size: 2rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+
+#about {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.vertical-timeline {
+  padding: 0;
+
+  &::before {
+    background-color: var(--off-bg-color);
+  }
+
+  &-element {
+    margin: 0 0 3% 0;
+
+    &-content {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 0%;
+
+      &-arrow {
+        margin-right: 1.5%;
+      }
+    }
+
+    &-icon {
+      background-color: white;
+      color: var(--bg-color);
+    }
+
+    &-content .vertical-timeline-element-date {
+      padding: 0.4em 0;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  box-shadow: 0 0 20px 20px var(--bg-color) inset;
+
+  &:before {
+    content: "";
+    background: var(--hero-blur);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: var(--light-color);
+  }
+
+  p {
+    color: var(--light-color);
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+
+    span {
+      color: var(--strong-color);
+      letter-spacing: 1px;
+    }
+  }
+
+  .social-links a {
+    font-size: 2.25rem;
+    display: inline-block;
+    color: var(--light-color);
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+
+    &:hover {
+      color: var(--strong-color);
+    }
+  }
+
+  @media (min-width: 992px) {
+    padding-left: 5%;
+    margin: 0 0 5% 0;
+
+    .container {
+      margin: 0 0 5% 0;
+    }
+  }
+
+  @media (max-width: 992px) {
+    text-align: center;
+
+    .container {
+      margin-bottom: 10vh;
+    }
+
+    h1 {
+      font-size: 32px;
+      line-height: 36px;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# Project Section
+--------------------------------------------------------------*/
+
+.project {
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 8px var(--dark-shadow);
+  transition: all ease-in-out 0.3s;
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  background-color: var(--off-bg-color);
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px var(--dark-shadow), 0 4px 8px var(--dark-shadow);
+  }
+
+  .card-body {
+    background-color: var(--off-bg-color);
+    color: var(--text-color);
+  }
+}
+
+/*--------------------------------------------------------------
+# Section Title
+--------------------------------------------------------------*/
+
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: var(--light-color);
+
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 50%;
+      height: 1px;
+      background: var(--light-color);
+      bottom: 1px;
+      left: calc(50% - 25%);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 20%;
+      height: 3px;
+      background: var(--strong-color);
+      bottom: 0;
+      left: calc(50% - 10%);
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+    color: var(--text-color);
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+  background: var(--off-bg-color);
+  color: var(--light-color);
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+
+  h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+
+  p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+
+  .social-links {
+    margin: 0 0 20px 0;
+
+    a {
+      font-size: 18px;
+      display: inline-block;
+      background: var(--strong-color);
+      color: white;
+      line-height: 1;
+      padding: 8px 0;
+      margin-right: 4px;
+      border-radius: 50%;
+      text-align: center;
+      width: 36px;
+      height: 36px;
+      transition: 0.3s;
+
+      &:hover {
+        background: var(--off-strong-color);
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  transition: all 0.5s;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+@media (max-width: 992px) {
+  #header {
+    width: 300px;
+    background: var(--bg-color);
+    border-right: 1px solid var(--off-strong-color);
+    left: -300px;
+  }
+}
+
+@media (min-width: 992px) {
+  #main {
+    margin-left: 100px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+.nav-menu {
+  padding: 0;
+  display: block;
+}
+
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu>ul>li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu a,
+.nav-menu a:focus {
+  display: flex;
+  align-items: center;
+  color: var(--light-color);
+  padding: 10px 20px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+  border-radius: 50px;
+  background: var(--off-bg-color);
+  height: 56px;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i {
+  font-size: 20px;
+}
+
+.nav-menu a span,
+.nav-menu a:focus span {
+  padding: 0 5px 0 7px;
+  color: var(--light-color);
+}
+
+@media (min-width: 992px) {
+
+  .nav-menu a,
+  .nav-menu a:focus {
+    width: 56px;
+  }
+
+  .nav-menu a span,
+  .nav-menu a:focus span {
+    display: none;
+    color: var(--bg-color)
+  }
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover>a {
+  color: white;
+  background: var(--strong-color)
+}
+
+.nav-menu a:hover span,
+.nav-menu .active span,
+.nav-menu .active:focus span,
+.nav-menu li:hover>a span {
+  color: white;
+}
+
+.nav-menu a:hover,
+.nav-menu li:hover>a {
+  width: 100%;
+  color: white;
+}
+
+.nav-menu a:hover span,
+.nav-menu li:hover>a span {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
