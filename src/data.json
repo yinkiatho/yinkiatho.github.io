@@ -170,75 +170,86 @@
         }
     },
     "Projects": {
-        "ProjectsIntro": {
-            "title": "Projects",
-            "description": "Compilation of my personal projects, showcasing the application of academic and technical skills acquired through hands-on experience, while exploring my personal interests."
-        },
-        "Hedging IL and Optimising Fee Returns with ARIMA-GARCH": {
-            "title": "Hedging IL and Optimising Fee Returns with ARIMA-GARCH",
-            "description": "Quantitative Strategy for hedging impermanent loss and generating fee returns for liquidity providers in Uniswap V3 using ARIMA-GARCH, options and futures",
-            "image": "assets/images/uniswap.png",
-            "links": {
-                "About": [
-                    "https://github.com/yinkiatho/Crypto-Whales",
-                    "simple-icons:github"
-                ]
-            }
-        },
-        "RF-Optimization": {
-            "title": "Portfolio Optimization using Random Forest Selection",
-            "description": "Machine Learning Forecasting for Stock Selection and Portfolio Optimization",
-            "image": "assets/images/rf.png",
-            "links": {
-                "About": [
-                    "https://github.com/yinkiatho/RF-Portfolio-Optimization",
-                    "simple-icons:github"
-                ]
-            }
-        },
-        "Streamlit-LSTM": {
-            "title": "Stock Price Prediction with LSTM",
-            "description": "Stock Price Prediction using LSTM with LSTM Intra-Day Strategy Backtesting",
-            "image": "assets/images/BRAIN.jpg",
-            "links": {
-                "About": [
-                    "https://github.com/yinkiatho/Streamlit-LSTM",
-                    "simple-icons:github"
-                ]
-            }
-        },
-        "Orbital-BGS": {
-            "title": "Orbital: Fur-Ever-Home",
-            "description": "Full Stack Application connecting pet owners with stray pets and shelter animals through a Tinder-like interface",
-            "image": "assets/images/orbital.png",
-            "links": {
-                "Github": [
-                    "https://github.com/joshuagohez/Orbital-BGS",
-                    "simple-icons:github"
-                ]
-            }
-        },
-        "Algorithmic_Trading_using_XGBoost": {
-            "title": "Algorithmic Trading using XGBoost",
-            "description": "Algorithmic Trading using XGBoost Intra-Day Strategy",
-            "image": "assets/images/wikipedia.webp",
-            "links": {
-                "About": [
-                    "https://github.com/yinkiatho/Huawei-NUS-Challenge",
-                    "simple-icons:github"
-                ]
-            }
-        },
-        "Watershed Properties Analysis": {
-            "title": "Watershed Properties Analysis",
-            "description": "Watershed Properties Analysis in Tableau, utilising SQL data extraction, regression analysis and sensitivity analysis",
-            "image": "assets/images/Watershed_Dashboard_300x300.jpg",
-            "links": {
-                "Demo": [
-                    "https://public.tableau.com/shared/7TY4SZZS9?:display_count=n&:origin=viz_share_link"
-                ]
-            }
+      "ProjectsIntro": {
+        "title": "Projects",
+        "description": "Compilation of my personal projects, showcasing the application of academic and technical skills acquired through hands-on experience, while exploring my personal interests."
+      },
+      "Market Making: IMC Prosperity Challenge": {
+        "title": "Market Making: IMC Prosperity Challenge",
+        "description": "Crafting market making algorithms in Python to trade on IMC Prosperity Challenge 2024",
+        "image": "assets/images/share.jpg",
+        "links": {
+          "About": [
+            "https://github.com/yinkiatho/IMC-Prosperity",
+            "simple-icons:github"
+          ]
         }
+      },
+      "Hedging IL and Optimising Fee Returns with ARIMA-GARCH": {
+        "title": "Hedging IL and Optimising Fee Returns with ARIMA-GARCH",
+        "description": "Quantitative Strategy for hedging impermanent loss and generating fee returns for liquidity providers in Uniswap V3 using ARIMA-GARCH, options and futures",
+        "image": "assets/images/uniswap.png",
+        "links": {
+          "About": [
+            "https://github.com/yinkiatho/Crypto-Whales",
+            "simple-icons:github"
+          ]
+        }
+      },
+      "RF-Optimization": {
+        "title": "Portfolio Optimization using Random Forest Selection",
+        "description": "Machine Learning Forecasting for Stock Selection and Portfolio Optimization",
+        "image": "assets/images/rf.png",
+        "links": {
+          "About": [
+            "https://github.com/yinkiatho/RF-Portfolio-Optimization",
+            "simple-icons:github"
+          ]
+        }
+      },
+      "Streamlit-LSTM": {
+        "title": "Stock Price Prediction with LSTM",
+        "description": "Stock Price Prediction using LSTM with LSTM Intra-Day Strategy Backtesting",
+        "image": "assets/images/BRAIN.jpg",
+        "links": {
+          "About": [
+            "https://github.com/yinkiatho/Streamlit-LSTM",
+            "simple-icons:github"
+          ]
+        }
+      },
+      "Orbital-BGS": {
+        "title": "Orbital: Fur-Ever-Home",
+        "description": "Full Stack Application connecting pet owners with stray pets and shelter animals through a Tinder-like interface",
+        "image": "assets/images/orbital.png",
+        "links": {
+          "Github": [
+            "https://github.com/joshuagohez/Orbital-BGS",
+            "simple-icons:github"
+          ]
+        }
+      },
+      "Algorithmic_Trading_using_XGBoost": {
+        "title": "Algorithmic Trading using XGBoost",
+        "description": "Algorithmic Trading using XGBoost Intra-Day Strategy",
+        "image": "assets/images/wikipedia.webp",
+        "links": {
+          "About": [
+            "https://github.com/yinkiatho/Huawei-NUS-Challenge",
+            "simple-icons:github"
+          ]
+        }
+      },
+      "Watershed Properties Analysis": {
+        "title": "Watershed Properties Analysis",
+        "description": "Watershed Properties Analysis in Tableau, utilising SQL data extraction, regression analysis and sensitivity analysis",
+        "image": "assets/images/Watershed_Dashboard_300x300.jpg",
+        "links": {
+          "Demo": [
+            "https://public.tableau.com/shared/7TY4SZZS9?:display_count=n&:origin=viz_share_link"
+          ]
+        }
+      }
     },
     "Colors": {
         "strong_color": "#3b2862",

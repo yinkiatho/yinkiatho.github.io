@@ -59,6 +59,9 @@ const ProjectView = () => {
       >
         <SectionIntro {...Data["Projects"]["ProjectsIntro"]} />
         <ProjectCards
+          {...Data["Projects"]["Market Making: IMC Prosperity Challenge"]}
+        />
+        <ProjectCards
           {...Data["Projects"][
             "Hedging IL and Optimising Fee Returns with ARIMA-GARCH"
           ]}
