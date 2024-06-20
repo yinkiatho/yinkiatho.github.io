@@ -66,7 +66,7 @@
                 "company": "Azendian Solutions",
                 "company_logo": "az",
                 "date": "Aug 2023 - Nov 2023",
-                "description": "Developed responsive user interface for Azendian's Real-Time Dashboard using React.js. Implemented multiple scalable RESTful APIs on Express.js server-side applications, integrating with Azure and PostGreSQL database"
+                "description": "Developed responsive user interface for Azendian's Real-Time Dashboard using React.js. Implemented multiple scalable RESTful APIs on Express.js server-side applications, integrating with Azure and PostgreSQL database"
             },
             {
                 "title": "Data Analytics and Visualization Intern",
