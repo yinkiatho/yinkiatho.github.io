@@ -35,16 +35,25 @@
             "Student",
             "Quantitative Research Consultant",
             "Full Stack Developer",
+            "Quantitative Analyst",
             "Data Analyst"
         ]
     },
     "About": {
         "AboutIntro": {
             "title": "About",
-            "description": "Student | Machine Learning | Quantitative Research Consultant | BSc Business Analytics School of Computing |"
+            "description": "Student | Machine Learning | Quantitative Research | BSc Business Analytics School of Computing |"
         },
         "about_paragraph": "As a student in National University of Singapore, passionate about Machine Learning and Quantitative Finance, my journey has been a blend of hands-on experience, academic excellence, and a commitment to pushing the boundaries of knowledge in this dynamic field. I'm eager to channel my expertise and passion into real-world challenges, contributing to the ever-evolving landscape of quantitative finance and machine learning with innovation and dedication.",
         "work_experience": [
+            {
+                "title": "Quantitative Analyst Intern",
+                "company": "Phillip Securities",
+                "company_logo": "pc",
+                "date": "May 2024 - Aug 2024",
+                "description": "Built a LLM model to conduct Sentiment Analysis on SGX Universe stocks. Developed multiple multi-factor, model-based systematic trading strategies with Sharpe Ratios exceeding 1.5, employing portfolio optimization, reinforcement learning, and various evaluation techniques."
+
+            },
             {
                 "title": "Quantitative Research Consultant",
                 "company": "WorldQuant",
