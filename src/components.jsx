@@ -204,7 +204,7 @@ const Papers = (props) => {
 const Resume = (props) => {
 
     //eslint-disable-next-line
-    const [file, setFile] = useState('assets/docs/Yin Kiat Resume B.pdf');
+    const [file, setFile] = useState('assets/docs/Yin Kiat Resume.pdf');
     const options = { cMapUrl: 'cmaps/', cMapPacked: true, standardFontDataUrl: 'standard_fonts/', };
     useEffect(() => { pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`; });
 
