@@ -46,35 +46,41 @@
         },
         "about_paragraph": "As a student in National University of Singapore, passionate about Machine Learning and Quantitative Finance, my journey has been a blend of hands-on experience, academic excellence, and a commitment to pushing the boundaries of knowledge in this dynamic field. I'm eager to channel my expertise and passion into real-world challenges, contributing to the ever-evolving landscape of quantitative finance and machine learning with innovation and dedication.",
         "work_experience": [
-            {
-                "title": "Quantitative Analyst Intern",
-                "company": "Phillip Securities",
-                "company_logo": "pc",
-                "date": "May 2024 - Aug 2024",
-                "description": "Built a LLM model to conduct Sentiment Analysis on SGX Universe stocks. Developed multiple multi-factor, model-based systematic trading strategies with Sharpe Ratios exceeding 1.5, employing portfolio optimization, reinforcement learning, and various evaluation techniques."
-
-            },
-            {
-                "title": "Quantitative Research Consultant",
-                "company": "WorldQuant",
-                "company_logo": "wq",
-                "date": "Aug 2023 - Present",
-                "description": "Built an Alpha Generation Engine in Python, algorithmically searching, constructing alpha expressions based on financial market analyses and quantitative research on equities portfolio trading strategies"
-            },
-            {
-                "title": "Full Stack Developer Intern",
-                "company": "Azendian Solutions",
-                "company_logo": "az",
-                "date": "Aug 2023 - Nov 2023",
-                "description": "Developed responsive user interface for Azendian's Real-Time Dashboard using React.js. Implemented multiple scalable RESTful APIs on Express.js server-side applications, integrating with Azure and PostgreSQL database"
-            },
-            {
-                "title": "Data Analytics and Visualization Intern",
-                "company": "United Overseas Bank",
-                "company_logo": "uob",
-                "date": "May 2023 - Aug 2023",
-                "description": "Constructed multiple end-to-end Power BI data models for the Business Management team, streamlining and automating monthly financial reporting process of data cleaning, data aggregation and dashboard building."
-            }
+          {
+            "title": "Quantitative Research Intern (Incoming)",
+            "company": "Tokka Labs",
+            "company_logo": "TL",
+            "date": "Aug 2024 - ",
+            "description": ""
+          },
+          {
+            "title": "Quantitative Analyst Intern",
+            "company": "Phillip Securities",
+            "company_logo": "pc",
+            "date": "May 2024 - Aug 2024",
+            "description": "Built a LLM model to conduct Sentiment Analysis on SGX Universe stocks. Developed multiple multi-factor, model-based systematic trading strategies with Sharpe Ratios exceeding 1.5, employing portfolio optimization, reinforcement learning, and various evaluation techniques."
+          },
+          {
+            "title": "Quantitative Research Consultant",
+            "company": "WorldQuant",
+            "company_logo": "wq",
+            "date": "Aug 2023 - Present",
+            "description": "Built an Alpha Generation Engine in Python, algorithmically searching, constructing alpha expressions based on financial market analyses and quantitative research on equities portfolio trading strategies"
+          },
+          {
+            "title": "Full Stack Developer Intern",
+            "company": "Azendian Solutions",
+            "company_logo": "az",
+            "date": "Aug 2023 - Nov 2023",
+            "description": "Developed responsive user interface for Azendian's Real-Time Dashboard using React.js. Implemented multiple scalable RESTful APIs on Express.js server-side applications, integrating with Azure and PostgreSQL database"
+          },
+          {
+            "title": "Data Analytics and Visualization Intern",
+            "company": "United Overseas Bank",
+            "company_logo": "uob",
+            "date": "May 2023 - Aug 2023",
+            "description": "Constructed multiple end-to-end Power BI data models for the Business Management team, streamlining and automating monthly financial reporting process of data cleaning, data aggregation and dashboard building."
+          }
         ]
     },
     "Resume": {
