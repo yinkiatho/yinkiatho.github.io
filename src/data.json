@@ -58,7 +58,7 @@
             "company": "Phillip Securities",
             "company_logo": "pc",
             "date": "May 2024 - Aug 2024",
-            "description": "Built a LLM model to conduct Sentiment Analysis on SGX Universe stocks. Developed multiple multi-factor, model-based systematic trading strategies with Sharpe Ratios exceeding 1.5, employing portfolio optimization, reinforcement learning, and various evaluation techniques."
+            "description": "Developed multiple systematic trading strategies based on multi-factor modelling, reinforcement learning and statistical arbitrage, with Sharpe Ratios exceeding 1.5, applying portfolio optimisation and other evaluation techniques"
           },
           {
             "title": "Quantitative Research Consultant",
