@@ -254,6 +254,16 @@
             "simple-icons:github"
           ]
         }
+      },
+      "Watershed Properties Analysis": {
+        "title": "Watershed Properties Analysis",
+        "description": "Watershed Properties Analysis in Tableau, utilising SQL data extraction, regression analysis and sensitivity analysis",
+        "image": "assets/images/Watershed_Dashboard_300x300.jpg",
+        "links": {
+          "Demo": [
+            "https://public.tableau.com/shared/7TY4SZZS9?:display_count=n&:origin=viz_share_link"
+          ]
+        }
       }
     },
     "Colors": {
